@@ -50,7 +50,7 @@ const About = () => {
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with 1 it company , leveling up my skills and
+            I've worked with 2 it companies , leveling up my skills and
             teaming up with smart people. 
             I am a quick learner and adaptable junior designer who is always looking for new challenges. 
             Here's the rundown:

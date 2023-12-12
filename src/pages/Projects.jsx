@@ -60,7 +60,7 @@ const Projects = () => {
                 </div>
 
                 {project.name != "MERN STACK E-Commerce WebSite" &&
-                  project.name != "E-Commerce Website Clone" && (
+                  project.name != "Wedding Events App MEAN Stack" && (
                     <div className="mt-5 flex items-center gap-2 font-poppins">
                       <Link
                         to={project.liveLink}

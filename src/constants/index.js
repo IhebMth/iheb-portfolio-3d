@@ -1,4 +1,5 @@
 import  winProd from "../assets/images/winProd.png"
+import commersaDigital from '../assets/images/commersaDigital.png'
 import {
     car,
     contact,
@@ -103,11 +104,11 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Web Designer",
+        title: "Web Designer Freelancer",
         company_name: "Win Prod",
         icon: winProd,
         iconBg: "#accbe1",
-        date: "June 2022 - Avril 2023",
+        date: "17 / 07 2023 - Current",
         points: [
             " Creating posters/ Graphic Charts / Logos",
             "Assisting in web development Projects and Bringing New Ideas",
@@ -115,20 +116,34 @@ export const experiences = [
             "Direct contact with clients when needed"
         ],
     },
+
     {
-        title: "Web Developer",
-        company_name: "winProd",
-        icon: winProd,
+        title: "FrontEnd Developer",
+        company_name: "Commersa Digital",
+        icon: commersaDigital,
             iconBg: "rgba(211, 97, 243, 0.867)",
-        date: "March 2020 - April 2021",
+        date: "10/07/2022 - 31/05/2023",
+        points: [ 
+            ' Turning design mockups and prototypes into functional web pages and applications.',
+            ' Writing clean, maintainable code that is easy to understand and modify.', 
+            ' Implementing interactive elements using JavaScript to make the page dynamic and responsive to user actions.' ,
+            ' Implementing third-party libraries and frameworks',           
+        ],
+    }, 
+    {
+        title: "Web Developer End-Of-Studies Project",
+        company_name: "Commersa Digital",
+        icon: commersaDigital,
+            iconBg: "rgba(211, 97, 243, 0.867)",
+        date: "15/02/2022 - 06/05/2022",
         points: [
             'Project: E-Commerce WebSite', 
-            '- Responsive site with MERN technology: ',
-            '- React JS: Frontend Library', 
-            '- Express JS: Backend Server' ,
-            '- Node JS: Software Platfor',
-            '- MongoDb: Database', 
-            '- Adobe PhotoSho',
+            ' Responsive site with MERN technology: ',
+            ' React JS: Frontend Library', 
+            ' Express JS: Backend Server' ,
+            ' Node JS: Software Platfor',
+            ' MongoDb: Database', 
+            ' Adobe PhotoSho',
             
         ],
     },
