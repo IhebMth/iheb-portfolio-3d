@@ -22,9 +22,11 @@ import {
     snapgram,
     summiz,
     estate,
+    
 } from "../assets/icons";
 import wedding from '../assets/icons/wedding.svg'
 import bootstrap from '../assets/icons/bootstrap.svg'
+import movies from '../assets/icons/movies.png'
 
 
 export const skills = [
@@ -169,7 +171,15 @@ export const socialLinks = [
 ];
 
 export const projects = [
-  
+
+    {
+        iconUrl: movies,
+        theme: 'btn-back-blue',
+        name: 'ArabFlix',
+        description: "i created an movies app where i did put all my learning skills into action.. i have used reactJs, hooks, tdmp Api, axios ,  scss, Implementing a video player that reads all kind of sources that i find it a solution after alot of research, ads  using admob , it will be live in february  ",
+        githubLink: 'https://github.com/IhebMth/ArabFlix',
+        liveLink : 'https://arabflix.netlify.app/'
+    },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
@@ -178,6 +188,7 @@ export const projects = [
         githubLink: 'https://github.com/IhebMth/Blog',
         liveLink : 'https://iheb-blog.onrender.com/'
     },
+  
     {
         iconUrl: estate,
         theme: 'btn-back-black',
