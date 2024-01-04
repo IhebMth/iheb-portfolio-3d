@@ -110,7 +110,7 @@ export const experiences = [
         company_name: "Win Prod",
         icon: winProd,
         iconBg: "#accbe1",
-        date: "17 / 07 2023 - Current",
+        date: "17/07/2023 - Current",
         points: [
             " Creating posters/ Graphic Charts / Logos",
             "Assisting in web development Projects and Bringing New Ideas",
